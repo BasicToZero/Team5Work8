@@ -1,0 +1,125 @@
+body{
+    margin:0;
+    font-family:'Segoe UI',sans-serif;
+
+    background-image:
+    linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),
+    url('background.jpg');
+
+    background-size:cover;
+    background-position:center;
+
+    min-height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.card{
+    width:420px;
+
+    background:rgba(255,255,255,0.95);
+
+    border-radius:20px;
+
+    overflow:hidden;
+
+    box-shadow:0 10px 40px rgba(0,0,0,0.3);
+}
+
+.header{
+    background:linear-gradient(135deg,#185FA5,#534AB7);
+
+    color:white;
+
+    padding:30px;
+
+    text-align:center;
+}
+
+.logo{
+    font-size:50px;
+}
+
+.body{
+    padding:25px;
+}
+
+input{
+    width:100%;
+
+    padding:12px;
+
+    margin-bottom:15px;
+
+    border-radius:10px;
+
+    border:1px solid #ccc;
+
+    box-sizing:border-box;
+}
+
+.main{
+    width:100%;
+
+    border:none;
+
+    padding:14px;
+
+    border-radius:10px;
+
+    background:linear-gradient(135deg,#185FA5,#534AB7);
+
+    color:white;
+
+    font-size:16px;
+
+    font-weight:bold;
+
+    cursor:pointer;
+}
+
+.role-buttons{
+    display:grid;
+
+    grid-template-columns:1fr 1fr;
+
+    gap:10px;
+
+    margin-bottom:20px;
+}
+
+.role-btn{
+    border:none;
+
+    padding:12px;
+
+    border-radius:10px;
+
+    background:#f1f1f1;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
+
+.role-btn.active{
+    background:linear-gradient(135deg,#185FA5,#534AB7);
+
+    color:white;
+}
+
+.switch{
+    text-align:center;
+
+    margin-top:15px;
+}
+
+.switch span{
+    color:#185FA5;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
